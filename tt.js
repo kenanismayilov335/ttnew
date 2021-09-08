@@ -4,7 +4,7 @@ const { Telegraf, session, Extra, Markup, Scenes } = require('telegraf');
 const { BaseScene, Stage } = Scenes
 const { enter, leave } = Stage
 const stage = new Stage()
-var bot_token = '1954145272:AAEAVPoCKDcM1lkp6bXfwRhhcZJ7Emo4Us0'; //YOUR BOT TOKEN HERE
+var bot_token = '1372871302:AAHTNbEfrEVLZtLE5m_zOCld9X6Gp_KfIPs'; //YOUR BOT TOKEN HERE
 const bot = new Telegraf(bot_token);
 let db;
 const balance = new BaseScene('balance')
