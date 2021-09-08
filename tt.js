@@ -1134,7 +1134,7 @@ async function mustjoin(ctx) {
             final += chnl[i] + "\n";
         }
         ctx.reply(
-            "<b>⛔️ Must Join All Our Channel</b>\n\n" + final + "✌️Follow On <a href='https://twitter.com/ynpynpy'> Twitter</a>\n\n<b>✅ After Joining, Click On '🟢 Joined'</b>", { parse_mode: 'html',disable_web_page_preview:true, reply_markup: { keyboard: [['🟢 Joined']], resize_keyboard: true } }
+            "<b>⛔️ Must Join All Our Channel</b>\n\n" + final + "\n✌️Follow On <a href='https://twitter.com/ynpynpy'> Twitter</a>\n\n<b>✅ After Joining, Click On '🟢 Joined'</b>", { parse_mode: 'html',disable_web_page_preview:true, reply_markup: { keyboard: [['🟢 Joined']], resize_keyboard: true } }
         )
     } catch (error) {
         console.log(error)
