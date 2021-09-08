@@ -4,7 +4,7 @@ const { Telegraf, session, Extra, Markup, Scenes } = require('telegraf');
 const { BaseScene, Stage } = Scenes
 const { enter, leave } = Stage
 const stage = new Stage()
-var bot_token = '1954145272:AAHGYrPmNJJTdFa00h_Bl2CExMGY4e_yrSE'; //YOUR BOT TOKEN HERE
+var bot_token = '1954145272:AAEAVPoCKDcM1lkp6bXfwRhhcZJ7Emo4Us0'; //YOUR BOT TOKEN HERE
 const bot = new Telegraf(bot_token);
 let db;
 const balance = new BaseScene('balance')
@@ -1134,7 +1134,7 @@ async function mustjoin(ctx) {
             final += chnl[i] + "\n";
         }
         ctx.reply(
-            "<b>⛔️ Must Join All Our Channel</b>\n\n@TheSuperPower\n" + final + "\n<b>✅ After Joining, Click On '🟢 Joined'</b>", { parse_mode: 'html', reply_markup: { keyboard: [['🟢 Joined']], resize_keyboard: true } }
+            "<b>⛔️ Must Join All Our Channel</b>\n\n@TheSuperPower\n" + final + "\n✌️Follow On <a href='https://twitter.com/ynpynpy'> Twitter</a>\n<b>✅ After Joining, Click On '🟢 Joined'</b>", { parse_mode: 'html', reply_markup: { keyboard: [['🟢 Joined']], resize_keyboard: true } }
         )
     } catch (error) {
         console.log(error)
